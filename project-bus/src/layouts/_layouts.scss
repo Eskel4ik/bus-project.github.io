@@ -1,0 +1,33 @@
+body {
+  font-family: 'Maven Pro', sans-serif;
+  margin:0 !important;
+  box-sizing: border-box !important;
+   a {
+     text-decoration: none;
+     color: inherit;
+   }
+}
+.title {
+  letter-spacing: 8px;
+}
+@keyframes darkened {
+  from {
+    background-color: transparent;
+    opacity: 0;
+  }
+  to {
+    background-color: black;
+    opacity: 80%;
+  }
+}
+@keyframes linktranslate {
+  from {
+    top: -40%;
+  }
+  to {
+    top: 40%;
+  }
+}
+.show {
+  z-index: 20;
+}

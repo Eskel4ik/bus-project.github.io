@@ -1,0 +1,37 @@
+@media screen and (max-width: 1281px) {
+  .mainpage__navbar {
+    margin-right: 0;
+  }
+  .mainpage__navbar_logo {
+    left: 9%;
+  }
+  .servises__buttons_case {
+    width: 90%;
+  }
+  .servises__buttons_item {
+    margin: 0 15px;
+  }
+  .ourprojects__item_case {
+    width: 90%;
+  }
+  .ourteam {
+    width: 100%;
+  }
+  .ourteam__case {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .ourteam__case_item {
+    width: 40% !important;
+    margin-top: 100px;
+  }
+  .ourprojects__item {
+    padding: 0 5px;
+  }
+  .ourprices__case {
+    width: 90% !important;
+  }
+  .fromblog__content_case {
+    width: 90%;
+  }
+};
