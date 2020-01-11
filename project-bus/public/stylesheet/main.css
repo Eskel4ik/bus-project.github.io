@@ -1324,12 +1324,14 @@ body {
   .mainpage__navbar_button {
     width: 50px;
     top: 0;
-    right: 15px; }
+    right: -20px; }
   .mainpage__header_titlebox {
     position: relative;
-    text-align: left; }
+    text-align: left;
+    max-width: 300px; }
     .mainpage__header_titlebox .mainpage__header_title {
-      font-size: 40px; }
+      font-size: 40px;
+      max-width: 300px !important; }
   .mainpage__header_list {
     width: 100%;
     padding: 0;
@@ -1342,6 +1344,8 @@ body {
   .mainpage__navbar_buttonlabel {
     display: block;
     width: 100%; }
+  .workprocess {
+    padding-top: 700px; }
   .servises__block {
     padding-top: 60px; }
   .servises__block p {
