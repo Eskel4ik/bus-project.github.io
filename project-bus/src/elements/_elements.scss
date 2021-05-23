@@ -193,6 +193,7 @@
 }
 .servises__buttons_item {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   text-transform: uppercase;
   margin: 0 35px;
